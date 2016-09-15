@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    #field {
+      width: 405px;
+      height: 331px;
+      border: 1px groove black;
+      background-color: #00FF00;
+      position: relative;
+    }
+
+    #ball {
+      position: absolute;
+    }
+    .nav {
+      margin:0;
+      padding:0;
+      list-style:none;
+      background: #ccc;
+      padding: 10px 5px;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-justify-content: space-between;
+      -moz-justify-content: space-between;
+      -ms-justify-content: space-between;
+      -o-justify-content: space-between;
+      justify-content: space-between;
+    }
+    .nav > li {
+      -webkit-box-flex:1 1 auto;
+      -moz-box-flex: 1 1 auto;
+      -webkit-flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+      flex: 1 1 auto;
+      margin: 0 5px;
+      text-align: center;
+    }
+    .nav a {
+      display: block;
+      padding: 5px 10px;
+      text-decoration: none;
+      color: #fff;
+      border-radius: 4px;
+      background: #f56f56;
+    }
+    .buildNav {
+      margin: 20px 0;
+      border-radius: 4px;
+      border: 1px solid rgba(0,0,0,.4);
+      background: #f56f56;
+      color: #fff;
+      padding: 8px 18px;
+      font-size: 16px;
+      line-height: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <div id="field">
+    <img src="https://js.cx/clipart/ball.svg" width="44" height="44" id="ball"> . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+    . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  </div>
+  <button class="buildNav">показать магию</button>
+  
+
+<script src="js/main.js"></script>
+</body>
+
+</html>
